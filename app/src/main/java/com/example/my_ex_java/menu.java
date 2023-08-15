@@ -13,13 +13,13 @@ public class menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
     }
-
-    public void abrir_Tela1(View view) {
-        Intent intent1 = new Intent(this, verificarMultiplos.class);
-        startActivity(intent1);
+    public void abrirTela1(View view) {
+        Intent intent = new Intent(this, verificarMultiplos.class);
+        startActivity(intent);
     }
-    public void abrir_Tela2(View view) {
-        Intent intent2 = new Intent(this, Calculadora_Horario.class);
-        startActivity(intent2);
+
+    public void abrirTela2(View view) {
+        Intent intent = new Intent(this, Calculadora_Horario.class);
+        startActivity(intent);
     }
 }

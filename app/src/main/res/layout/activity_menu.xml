@@ -31,7 +31,7 @@
       android:layout_marginTop="64dp"
       android:text="@string/txt_ex_2"
       android:textSize="20sp"
-      android:onClick="abrir_Tela2"
+      android:onClick="abrirTela2"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/id_ex_1" />
@@ -41,7 +41,7 @@
       android:layout_width="200dp"
       android:layout_height="80dp"
       android:layout_marginTop="32dp"
-      android:onClick="abrir_Tela1"
+      android:onClick="abrirTela1"
       android:text="@string/txt_ex_1"
       android:textSize="20sp"
       app:layout_constraintEnd_toEndOf="parent"
