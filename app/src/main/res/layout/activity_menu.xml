@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6C2A3F4"
+    tools:context=".menu">
+
+  <TextView
+      android:id="@+id/id_titulo_menu"
+      android:layout_width="340dp"
+      android:layout_height="66dp"
+      android:layout_marginTop="136dp"
+      android:text="@string/txt_titulo_menu"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.492"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="TextSizeCheck" />
+
+  <Button
+      android:id="@+id/id_ex_2"
+      android:layout_width="200dp"
+      android:layout_height="80dp"
+      android:layout_marginTop="64dp"
+      android:text="@string/txt_ex_2"
+      android:textSize="20sp"
+      android:onClick="abrir_Tela2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/id_ex_1" />
+
+  <Button
+      android:id="@+id/id_ex_1"
+      android:layout_width="200dp"
+      android:layout_height="80dp"
+      android:layout_marginTop="32dp"
+      android:onClick="abrir_Tela1"
+      android:text="@string/txt_ex_1"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.502"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/id_titulo_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Exercicios java</string>
+    <string name="txt_titulo">Calculadora de Horário de Saída</string>
+    <string name="txt_horario_inicio">Horário de Entrada (0 a 24h)</string>
+    <string name="txt_calcular">Calcular</string>
+    <string name="txt_verificar">Verificar Múltiplos</string>
+    <string name="txt_valor_a">Digite o valor de A</string>
+    <string name="txt_titulo_2">Virificador de valores Múltiplos</string>
+    <string name="txt_valor_b">Digite o valor de b</string>
+    <string name="txt_titulo_menu">Exercicios 1 e 4, Clique nos Botões!!</string>
+    <string name="txt_ex_1">Exercicio 1</string>
+    <string name="txt_ex_2">Exercicio 2</string>
+
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C697C3FA"
+    tools:context=".verificarMultiplos">
+
+    <EditText
+        android:id="@+id/idValorA"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:autofillHints=""
+        android:hint="@string/txt_valor_a"
+        android:inputType="number"
+        android:textColorHint="#6D4C41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_titulo_2" />
+
+    <EditText
+        android:id="@+id/idValorB"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:autofillHints=""
+        android:hint="@string/txt_valor_b"
+        android:inputType="number"
+        android:textColorHint="#6D4C41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idValorA" />
+
+    <TextView
+        android:id="@+id/idResultado2"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="56dp"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idValorB" />
+
+    <TextView
+        android:id="@+id/id_titulo_2"
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/txt_titulo_2"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/idButton"
+        android:layout_width="239dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:onClick="verificarMultiplos"
+        android:text="@string/txt_verificar"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idResultado2"
+        tools:ignore="TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
