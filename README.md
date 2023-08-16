@@ -1,7 +1,7 @@
 # AtividadeAndroid
 
 <h2>Atividade de JAVA, exercicios de Fixação</h2>
-<h4>Nome da Dupla: José Vinicius Valmoleda Laranjeira de Araujo e Helena Menezes</h4>
+<h4>Nome da Dupla: José Vinicius Valmoleda Laranjeira de Araujo e Helena Menezes Macedo</h4>
 
 <p>2 Parte: Código do Menu/MainActivity</p>
 
