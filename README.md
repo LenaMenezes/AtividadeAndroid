@@ -19,4 +19,47 @@
 <h2>Exercicio 1</h2>
 
 ![Exercicio1 Cod](https://github.com/LenaMenezes/AtividadeAndroid/assets/101807407/a3707987-96b2-4be3-8f4d-8a4c7686d24d)
+Na classe public nós criamos o método que será usado para escrever a logica. 
+"EditText idValorA = findViewById(R.id.idValorA);
+        EditText idValorB = findViewById(R.id.idValorB);
+        TextView idResultado2 = findViewById(R.id.idResultado2);" nessa parte temos a declaração de cada subclasse de uma view na classe da activity do exercicio 1, usando a função findViewById para achar a view pelo id, qeu está na parte das strings.
 
+<h4><p>Declarando as vars que determinam o valor que as views devem receber.</p></h4>
+" int a = Integer.parseInt(idValorA.getText().toString());
+        int b = Integer.parseInt(idValorB.getText().toString());" 
+
+"  if (saoMultiplos(a, b)) {
+            idResultado2.setText("São múltiplos");
+        } else {
+            idResultado2.setText("Não são múltiplos");
+        }
+    }"
+estrutura condicional, onde irá mostrar de acordo como exercicio se os valores que forem colocados na View forem múltiplos ou não forem múltiplos. "setText" envia a mensagem dependendo do valor e da condição dele.
+
+<h3><p>Parte em que será feito o cálculo de ambos os números, para ver se eles são múltiplos. Retornando o valor, seguindo a regra de o n1/n2, sendo resto não múltiplo e, não tendo o resto sendo múltiplo.</p></h3>
+"  public boolean saoMultiplos(int a, int b) {
+        return a % b == 0 || b % a == 0;
+    }
+}" 
+
+<h2>Exercicio 4</h2>
+
+![Exercicio 2 Cod](https://github.com/LenaMenezes/AtividadeAndroid/assets/101807407/1e941dd8-be3b-43cb-8385-91e3c940a709)
+
+<p>Nesse temos uma mudança na declaração do que será resgatado das views. No caso</p>
+
+"int horarioEntrada = Integer.parseInt(id_horario_entrada.getText().toString());
+        int horarioSaida = calcularHorarioSaida(horarioEntrada);"
+"integer.parseInt" pegando o valor que será inteiro, "getText" método que resgata o resultado que será um valor int e "toString" para converter para string.
+
+<p>Aqui estamos fazendo uma concatenando para mostrar o resultado</p>
+"  idResultado.setText("Horário de Saída: " + horarioSaida + "h");"
+"+ horarioSaida +" mostrar junto das strings o valor da var que está declarada como horarioSaida.
+
+<p>Cálculo do horario de entrada junto das horas trabalhadas.</p>
+"   public int calcularHorarioSaida(int horarioEntrada) {
+        return (horarioEntrada + 6) % 24;
+    }"
+"return (horarioEntrada + 6) % 24" retorna o valor do cálculo, horarioEntrada que será colocado na view com mesmo Id, + 6, que são as horas trabalhadas e por % que significa o total no geral, á partir de 1 dia.
+
+<h3>Com isso acabamos as atividades.</h3>
