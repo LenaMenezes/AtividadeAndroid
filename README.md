@@ -1,7 +1,26 @@
 # AtividadeAndroid
 
 <h2>Atividade de JAVA, exercicios de Fixação</h2>
-<h4>Nome da Dupla: José Vinicius Valmoleda Laranjeira de Araujo e Helena Menezes Macedo</h4>
+<p><h4>Nome da Dupla: José Vinicius Valmoleda Laranjeira de Araujo e Helena Menezes Macedo</h4></p>
+
+<p>1 Parte: Criando Repositório</p>
+<h4>Criando um repositório para guardar o app, e suas modificações</h4>
+
+![Criando repositório](https://github.com/LenaMenezes/AtividadeAndroid/assets/101807407/c2df49a6-3b46-4f35-95d1-6638fee852b3)
+
+<h4>App junto do Readme. Aqui está carregado os arquivos do app, código e telas</h4>
+
+![Repositório](https://github.com/LenaMenezes/AtividadeAndroid/assets/101807407/a5ef1d9f-0579-4825-9392-71a80970e9b4)
+
+<h4>Criando pasta que recebe o projeto, para modificações.</h4>
+
+![Pasta Projeto](https://github.com/LenaMenezes/AtividadeAndroid/assets/101807407/d31f18e4-e45d-4679-8f42-197483eb6415)
+
+<h4>Colocando o usuário/conta do github no gitbash, que está com o repositório.</h4>
+
+![Colocando o usuário](https://github.com/LenaMenezes/AtividadeAndroid/assets/101807407/e286b6b3-17cd-434d-921e-2b979e3e1b0d)
+
+<h4>Clonando o repositório.</h4>
 
 <p>2 Parte: Código do Menu/MainActivity</p>
 
