@@ -20,7 +20,10 @@
 
 ![Colocando o usuário](https://github.com/LenaMenezes/AtividadeAndroid/assets/101807407/e286b6b3-17cd-434d-921e-2b979e3e1b0d)
 
-<h4>Clonando o repositório.</h4>
+<h4>Criando uma direção para o diretóriona máquina, não sendo de manipulação via o site.</h4>
+
+![Para manipulação por gitbash](https://github.com/LenaMenezes/AtividadeAndroid/assets/101807407/9d3761e8-bce6-44e2-a1a1-ed7449c66597)
+O comando "Git add origin" adiciona onde se encontra o repositório, que está no link vinculado ao repositório criado.
 
 <p>2 Parte: Código do Menu/MainActivity</p>
 
